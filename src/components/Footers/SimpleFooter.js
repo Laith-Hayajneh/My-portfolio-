@@ -90,7 +90,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/Laith-Hayajneh"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -99,7 +99,7 @@ class SimpleFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
-                  Star on Github
+                  Vist My Github
                 </UncontrolledTooltip>
               </Col>
             </Row>
