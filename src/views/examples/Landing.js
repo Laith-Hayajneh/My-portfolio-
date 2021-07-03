@@ -48,7 +48,7 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+// import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
@@ -81,38 +81,13 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
+                        Why i'm excited about in tech{" "}
                         <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
+                      
                     </Col>
                   </Row>
                 </div>
@@ -137,7 +112,7 @@ class Landing extends React.Component {
             {/* 1st Hero Variation */}
           </div>
           <section className="section section-lg pt-lg-0 mt--200">
-            <Container>
+            {/* <Container>
               <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
@@ -252,7 +227,7 @@ class Landing extends React.Component {
                   </Row>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
           </section>
           <section className="section section-lg">
             <Container>
@@ -269,11 +244,9 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>Awesome features To Our Store </h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      We made an online store that let the user buy anything related to flowers 
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -304,7 +277,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">Amazing page </h6>
                           </div>
                         </div>
                       </li>
@@ -362,9 +335,7 @@ class Landing extends React.Component {
                         Design System
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                      Do you have a design don't worry we will make it to you.
                       </p>
                     </blockquote>
                   </Card>
@@ -374,29 +345,17 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>Project we'd make it in the future </h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                     We are planing to make a various type of store or any website that the customre maybe want to make .
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Our pages we running to fast to improve the quality of the website  
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                           WE HOPE OUR PRODUCT MAKE DIFFRENT IN OUR LIFE 
                     </p>
-                    <a
-                      className="font-weight-bold text-warning mt-5"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      A beautiful UI Kit for impactful websites
-                    </a>
+                    
                   </div>
                 </Col>
               </Row>
@@ -422,11 +381,9 @@ class Landing extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white"> My Background</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                       
                       </p>
                     </div>
                   </div>
@@ -440,12 +397,10 @@ class Landing extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-success">
-                            Awesome Support
+                          Bachelor's degree in GEOLOGY
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            My study in the university let me learn new somethings to became familiare with software and anything related to programming 
                           </p>
                           <a
                             className="text-success"
@@ -468,12 +423,11 @@ class Landing extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Modular Components
+                            My Previous  Knowlodege 
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                          My Knowlodege in using computer with difeernet OS like windows ,android and linux ,also the ability of learning new thing fast   
+
                           </p>
                           <a
                             className="text-warning"
@@ -657,7 +611,7 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">John Doe</span>
+                        <span className="d-block mb-1">Laith Hayajneh</span>
                         <small className="h6 text-muted">Founder and CEO</small>
                       </h5>
                       <div className="mt-3">
@@ -715,7 +669,7 @@ class Landing extends React.Component {
                         href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                         size="lg"
                       >
-                        Download React
+                        Hire us
                       </Button>
                     </Col>
                   </Row>
@@ -729,10 +683,7 @@ class Landing extends React.Component {
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
                   <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                    Don't let your idea goes away and make it real with our help .
                   </p>
                 </Col>
               </Row>
@@ -861,7 +812,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <Download />
+          {/* <Download /> */}
         </main>
         <CardsFooter />
       </>
